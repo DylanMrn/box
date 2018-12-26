@@ -10,6 +10,7 @@ if ($res)
 		var_dump($data);
 	}  
 }
+
 ?>
 <a href="./accueil.php">Accueil</a>
 <a href="./cards.php">Cartes</a> <!-- Ajout/modification/suppression de cartes -->
@@ -21,19 +22,19 @@ if ($res)
 /*
 
 TODO :
-1. Créer le menu carte : table card
-2. Créer le menu boite : table : regroupement, box
-3. integrer des cartes à des regroupements : table : box_card
+1. CrÃ©er le menu carte : table card
+2. Crï¿½er le menu boite : table : regroupement, box
+3. integrer des cartes ï¿½ des regroupements : table : box_card
 
 Jour 1 : ajout des cartes dans un regroupement
-Jour 5 : Première connexion, on vérifie la date de la boite 1
-Si null : On lui propose le contenu de la boite 1 et on s'arrète là
-Sinon (si date différente du jour) : 
+Jour 5 : Premiï¿½re connexion, on vï¿½rifie la date de la boite 1
+Si null : On lui propose le contenu de la boite 1 et on s'arrï¿½te lï¿½
+Sinon (si date diffï¿½rente du jour) : 
 Jour 7 : On lui propose le contenu de la boite 1 et on regarde la date de la boite 2
-Si null : On lui propose le contenu de la boite 2 et on s'arrète là
+Si null : On lui propose le contenu de la boite 2 et on s'arrï¿½te lï¿½
 ...
 
-Si aucune boite n'a de date à null, on propose le contenu de toutes les boites du regroupement.
+Si aucune boite n'a de date ï¿½ null, on propose le contenu de toutes les boites du regroupement.
 
 Proposer un bouton reset.
 
